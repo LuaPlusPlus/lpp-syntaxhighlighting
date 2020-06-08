@@ -8,7 +8,7 @@
 	<!-- File extentions -->
 	<key>fileTypes</key>
 	<array>
-		<string>lua</string>
+		<string>lpp</string>
 	</array>
 
 	<!-- code folding -->
