@@ -1,0 +1,71 @@
+{
+	"name": "lpp",
+	"description": "Lua++ language support for Visual Studio Code",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "images/logo.png",
+	"publisher": "Tom.bat",
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "lpp",
+				"path": "./snippets/custom.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/enums.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/classFuncs.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/funcs.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/globals.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/hooks.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/panelFuncs.json"
+			},
+			{
+				"language": "lpp",
+				"path": "./snippets/keywords.json"
+			}
+		],
+		"languages": [
+			{
+				"id": "lpp",
+				"aliases": [
+					"Lua++",
+					"Lua Plus Plus",
+					"LPP"
+				],
+				"extensions": [
+					".lpp"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "lpp",
+				"scopeName": "source.lua",
+				"path": "./syntaxes/lpp.tmLanguage"
+			}
+		]
+	}
+}
