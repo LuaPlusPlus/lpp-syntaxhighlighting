@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>Gmod Lua Syntax</string>
+	<string>Lua++ Syntax</string>
 
 	<!-- File extentions -->
 	<key>fileTypes</key>
@@ -22,7 +22,7 @@
 	<key>keyEquivalent</key>
 	<string>^~L</string>
 	<key>name</key>
-	<string>Gmod Lua</string>
+	<string>Lua++</string>
 
 	<key>patterns</key>
 	<array>
