@@ -333,7 +333,7 @@
 		<!-- Operators -->
 		<dict>
 			<key>match</key>
-			<string>\b(and|or|not)\b|\|\||&amp;&amp;|&amp;|\||\+|-|%|#|,|\{|\}|\[|\]|\*|\/|\^|==?|~=|!=|&lt;=?|&gt;=?|(?&lt;!\.)\.{2}(?!\.)</string>
+			<string>\b(and|or|not)\b|\|\||&amp;&amp;|&amp;|\||\+|\+\+|\+=|-=|\*=|\/=|&amp;.|-|%|#|,|\{|\}|\[|\]|\*|\/|\^|==?|~=|!=|&lt;=?|&gt;=?|(?&lt;!\.)\.{2}(?!\.)</string>
 			<key>name</key>
 			<string>keyword.operator.lua</string>
 		</dict>
