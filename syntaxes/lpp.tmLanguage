@@ -270,14 +270,14 @@
 		<!-- Control keywords -->
 		<dict>
 			<key>match</key>
-			<string>\b(class|constructor|extends|new|not|and|or|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|continue|goto)\b</string>
+			<string>\b(class|constructor|extends|not|and|or|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|continue|goto)\b</string>
 			<key>name</key>
 			<string>keyword.control.lua</string>
 		</dict>
 		<!-- Important constants -->
 		<dict>
 			<key>match</key>
-			<string>(?&lt;![^.]\.|:)\b(NULL|false|nil|true|_G|_R|_VERSION|self|math\.(pi|huge))\b|(?&lt;![.])\.{3}(?!\.)</string>
+			<string>(?&lt;![^.]\.|:)\b(NULL|false|nil|true|_G|_R|_VERSION|self|get|set|new|math\.(pi|huge))\b|(?&lt;![.])\.{3}(?!\.)</string>
 			<key>name</key>
 			<string>constant.language.lua</string>
 		</dict>
